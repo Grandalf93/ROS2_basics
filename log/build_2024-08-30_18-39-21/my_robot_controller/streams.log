@@ -1,0 +1,38 @@
+[2.906s] Invoking command in '/home/ws2/build/my_robot_controller': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ws2/build/my_robot_controller/build
+[4.222s] running develop
+[4.224s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.226s]   warnings.warn(
+[4.661s] Removing /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[4.729s] Invoked command in '/home/ws2/build/my_robot_controller' returned '0': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ws2/build/my_robot_controller/build
+[4.763s] Invoking command in '/home/ws2/src/my_robot_controller': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ws2/build/my_robot_controller/build install --record /home/ws2/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[6.080s] running egg_info
+[6.091s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[6.105s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[6.117s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[6.126s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[6.134s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[6.204s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[6.351s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[6.359s] running build
+[6.361s] running build_py
+[6.386s] copying my_robot_controller/draw_circle.py -> /home/ws2/build/my_robot_controller/build/lib/my_robot_controller
+[6.438s] copying my_robot_controller/my_first_node.py -> /home/ws2/build/my_robot_controller/build/lib/my_robot_controller
+[6.504s] running install
+[6.506s] running install_lib
+[6.544s] creating /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.576s] copying /home/ws2/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.644s] copying /home/ws2/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.713s] copying /home/ws2/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.783s] byte-compiling /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[6.857s] byte-compiling /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[6.937s] byte-compiling /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[6.997s] running install_data
+[7.012s] copying resource/my_robot_controller -> /home/ws2/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.053s] copying package.xml -> /home/ws2/install/my_robot_controller/share/my_robot_controller
+[7.088s] running install_egg_info
+[7.121s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[7.578s] running install_scripts
+[7.698s] Installing draw_circle script to /home/ws2/install/my_robot_controller/lib/my_robot_controller
+[7.738s] Installing test_node script to /home/ws2/install/my_robot_controller/lib/my_robot_controller
+[7.799s] writing list of installed files to '/home/ws2/build/my_robot_controller/install.log'
+[7.884s] Invoked command in '/home/ws2/src/my_robot_controller' returned '0': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ws2/build/my_robot_controller/build install --record /home/ws2/build/my_robot_controller/install.log --single-version-externally-managed install_data --force

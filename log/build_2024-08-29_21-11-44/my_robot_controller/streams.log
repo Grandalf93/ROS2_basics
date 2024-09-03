@@ -1,0 +1,33 @@
+[4.225s] Invoking command in '/home/ws2/src/my_robot_controller': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ws2/build/my_robot_controller/build install --record /home/ws2/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[6.134s] running egg_info
+[6.146s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[6.153s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[6.187s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[6.205s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[6.222s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[6.236s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[6.257s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[6.349s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[6.507s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[6.518s] running build
+[6.521s] running build_py
+[6.535s] creating /home/ws2/build/my_robot_controller/build
+[6.538s] creating /home/ws2/build/my_robot_controller/build/lib
+[6.543s] creating /home/ws2/build/my_robot_controller/build/lib/my_robot_controller
+[6.568s] copying my_robot_controller/__init__.py -> /home/ws2/build/my_robot_controller/build/lib/my_robot_controller
+[6.609s] running install
+[6.615s] running install_lib
+[6.662s] creating /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.703s] copying /home/ws2/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[6.793s] byte-compiling /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[6.874s] running install_data
+[6.899s] creating /home/ws2/install/my_robot_controller/share/ament_index
+[6.906s] creating /home/ws2/install/my_robot_controller/share/ament_index/resource_index
+[6.916s] creating /home/ws2/install/my_robot_controller/share/ament_index/resource_index/packages
+[6.945s] copying resource/my_robot_controller -> /home/ws2/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.005s] copying package.xml -> /home/ws2/install/my_robot_controller/share/my_robot_controller
+[7.038s] running install_egg_info
+[7.087s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ws2/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[7.802s] running install_scripts
+[8.009s] writing list of installed files to '/home/ws2/build/my_robot_controller/install.log'
+[8.084s] Invoked command in '/home/ws2/src/my_robot_controller' returned '0': PYTHONPATH=/home/ws2/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ws2/build/my_robot_controller/build install --record /home/ws2/build/my_robot_controller/install.log --single-version-externally-managed install_data
